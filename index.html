@@ -3,292 +3,348 @@
 
 <head>
     <meta charset="UTF-8">
-
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Waffle Burst | Fresh Waffles & Chocolate Bowls</title>
-
-    <!-- Font Awesome for icons -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
-
     <link rel="stylesheet" href="css/style.css">
-
 </head>
 
 <body>
+    <div class="loader">
+        <div class="loader-content">
+            <img src="assets/images/logo/logo-circle.jpeg" alt="Waffle Burst" class="loader-logo">
+            <p class="loader-text">WAFFLE BURST</p>
+        </div>
+    </div>
     <div id="header-placeholder"></div>
+
     <section class="hero">
-        <h2>Freshly Made Waffles & Chocolate Bowls</h2>
-        <p>Hot, crispy waffles topped with rich chocolate and love ❤️</p>
-        <button onclick="window.location.href='order.html'">
-            View Menu
-        </button>
-
-
-        <!-- Floating logo -->
-        <div class="floating-logo">
-            <img src="assets/images/logo/logo-circle.jpeg" alt="Waffle Burst Logo">
+        <div class="hero-copy reveal">
+            <p class="hero-badge"><i class="fa-solid fa-fire"></i> Freshly baked • takeaway • local favorite</p>
+            <h1>Waffle Burst is where indulgence meets comfort.</h1>
+            <p class="hero-description">
+                Every bite is made to feel like a tiny celebration — crisp waffles, rich chocolate bowls,
+                and flavors that make people linger, smile, and come back for more.
+            </p>
+            <div class="hero-actions">
+                <a href="#menu" class="primary-btn">Explore the menu</a>
+                <a href="order.html" class="secondary-btn">Build your order</a>
+            </div>
+            <div class="hero-meta">
+                <span><i class="fa-solid fa-star"></i> 4.9 customer rating</span>
+                <span><i class="fa-solid fa-clock"></i> Open 7 PM – 11 PM</span>
+                <span><i class="fa-solid fa-location-dot"></i> Kamothe, Navi Mumbai</span>
+            </div>
         </div>
 
-        <!-- Floating dessert icons -->
-        <div class="floating-icon"><i class="fa-solid fa-bowl-food"></i></div>
-        <div class="floating-icon"><i class="fa-solid fa-cookie"></i></div>
-        <div class="floating-icon"><i class="fa-solid fa-ice-cream"></i></div>
-        <div class="floating-icon"><i class="fa-solid fa-apple-whole"></i></div>
-        <div class="floating-icon"><i class="fa-solid fa-droplet"></i></div>
-        <div class="floating-icon"><i class="fa-solid fa-candy-cane"></i></div>
-        <div class="floating-icon"><i class="fa-solid fa-mug-saucer"></i></div>
-        <div class="floating-icon"><i class="fa-solid fa-pepper-hot"></i></div>
+        <div class="hero-showcase reveal">
+            <div class="showcase-card spotlight-card">
+                <img src="assets/images/product/13.webp" alt="Chocolate bowl special">
+                <div class="showcase-copy">
+                    <p class="eyebrow">Today’s spotlight</p>
+                    <h2>Double chocolate bowl</h2>
+                    <p>Rich, gooey, and layered with toppings made for slow moments and sweet cravings.</p>
+                    <div class="showcase-footer">
+                        <span>₹120</span>
+                        <a href="order.html">Order now</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="showcase-grid">
+                <div class="mini-card">
+                    <i class="fa-solid fa-bowl-food"></i>
+                    <div>
+                        <p>15+ desserts</p>
+                        <span>Fresh daily</span>
+                    </div>
+                </div>
+                <div class="mini-card">
+                    <i class="fa-solid fa-truck-fast"></i>
+                    <div>
+                        <p>Fast pickup</p>
+                        <span>Ready in minutes</span>
+                    </div>
+                </div>
+                <div class="mini-card">
+                    <i class="fa-solid fa-heart"></i>
+                    <div>
+                        <p>Made with care</p>
+                        <span>Premium ingredients</span>
+                    </div>
+                </div>
+            </div>
+        </div>
     </section>
 
+    <section class="premium-strip reveal">
+        <div class="premium-strip__copy">
+            <p class="section-label">Premium experience</p>
+            <h2>Designed to feel warm, effortless, and worth staying for.</h2>
+        </div>
+        <div class="premium-strip__grid">
+            <div>
+                <span>✨</span>
+                <p>Freshly baked sweet treats each evening</p>
+            </div>
+            <div>
+                <span>🍫</span>
+                <p>Rich chocolate bowls and signature waffles</p>
+            </div>
+            <div>
+                <span>⚡</span>
+                <p>Fast browse-to-order flow built for mobile</p>
+            </div>
+        </div>
+    </section>
 
+    <div class="mobile-action-strip reveal">
+        <p>Tap to jump straight into your next treat.</p>
+        <div class="mobile-action-links">
+            <a href="#menu" class="primary-btn">Browse menu</a>
+            <a href="order.html" class="secondary-btn">Start order</a>
+        </div>
+    </div>
 
+    <section class="section intro-strip">
+        <div class="intro-badge reveal">Why people stay</div>
+        <div class="intro-grid">
+            <div class="intro-copy reveal">
+                <p class="section-label">A dessert stop that feels special</p>
+                <h2>Made for moments when you want something warm, sweet, and unforgettable.</h2>
+                <p>
+                    From first glance to final bite, the experience is designed to feel inviting, premium,
+                    and easy — whether you’re coming in for a quick treat or planning a full order.
+                </p>
+            </div>
+            <div class="intro-steps reveal">
+                <div>
+                    <span>01</span>
+                    <p>Choose your favorite waffle or bowl</p>
+                </div>
+                <div>
+                    <span>02</span>
+                    <p>Customize your flavors and toppings</p>
+                </div>
+                <div>
+                    <span>03</span>
+                    <p>Pick up your order and enjoy the treat</p>
+                </div>
+            </div>
+        </div>
+    </section>
 
     <section class="section" id="features">
-        <h3>Why Choose Us</h3>
-        <div class="features">
-            <div class="card">
-                <h4>🧇 Fresh Waffles</h4>
-                <p>Prepared fresh on order with premium ingredients.</p>
-            </div>
-            <div class="card">
-                <h4>🍫 Chocolate Bowls</h4>
-                <p>Loaded with rich chocolate, fruits, and toppings.</p>
-            </div>
-            <div class="card">
-                <h4>🚀 Quick Service</h4>
-                <p>Fast preparation without compromising on quality.</p>
-            </div>
+        <div class="section-heading reveal">
+            <p class="section-label">Built to delight</p>
+            <h2>The Waffle Burst difference</h2>
+            <p class="section-copy">
+                We blend rich flavors, a warm presentation, and quick service so every visit feels like a treat worth staying for.
+            </p>
+        </div>
+        <div class="feature-grid">
+            <article class="feature-card reveal">
+                <span class="feature-icon">🧇</span>
+                <h3>Freshly baked on order</h3>
+                <p>Every waffle is prepared fresh so the texture and flavor stay crisp, warm, and indulgent.</p>
+            </article>
+            <article class="feature-card reveal">
+                <span class="feature-icon">🍫</span>
+                <h3>Chocolate bowls that impress</h3>
+                <p>Bold flavors, smooth melts, and topping combinations that feel playful and premium.</p>
+            </article>
+            <article class="feature-card reveal">
+                <span class="feature-icon">⚡</span>
+                <h3>Fast, fuss-free ordering</h3>
+                <p>From browsing to WhatsApp checkout, the flow is designed to be simple and quick.</p>
+            </article>
         </div>
     </section>
 
-    <section class="section" id="menu">
-        <h3>Our Popular Menu</h3>
-        <div class="menu-slider-wrapper">
-            <button class="menu-nav-btn menu-prev-btn">&#10094;</button>
+    <section class="section specials-section" id="menu">
+        <div class="section-heading reveal">
+            <p class="section-label">Favorite picks</p>
+            <h2>Explore the menu</h2>
+            <p class="section-copy">
+                Swipe through the menu to discover signature waffles and chocolate bowls that are made to keep customers coming back.
+            </p>
+        </div>
 
+        <div class="menu-slider-wrapper reveal">
+            <button class="menu-nav-btn menu-prev-btn" type="button" aria-label="Scroll menu left">&#10094;</button>
             <div class="menu-items" id="menuSlider">
-                <div class="menu-item">
+                <article class="menu-item">
                     <img src="assets/images/product/1.jpeg" alt="Honey Butter Waffle">
                     <div>
-                        <h4>Honey Butter Waffle</h4>
-                        <p>₹60</p>
+                        <p class="menu-tag">Best seller</p>
+                        <h3>Honey Butter Waffle</h3>
+                        <p class="menu-price">₹60</p>
                     </div>
-                </div>
-
-                <div class="menu-item">
+                </article>
+                <article class="menu-item">
                     <img src="assets/images/product/4.jpeg" alt="Peanut Butter Waffle">
                     <div>
-                        <h4>Peanut Butter Waffle</h4>
-                        <p>₹60</p>
+                        <p class="menu-tag">Classic favorite</p>
+                        <h3>Peanut Butter Waffle</h3>
+                        <p class="menu-price">₹60</p>
                     </div>
-                </div>
-
-                <div class="menu-item">
+                </article>
+                <article class="menu-item">
                     <img src="assets/images/product/5.jpeg" alt="White Chocolate Waffle">
                     <div>
-                        <h4>White Chocolate Waffle</h4>
-                        <p>₹60</p>
+                        <p class="menu-tag">Creamy</p>
+                        <h3>White Chocolate Waffle</h3>
+                        <p class="menu-price">₹60</p>
                     </div>
-                </div>
-
-                <div class="menu-item">
+                </article>
+                <article class="menu-item">
                     <img src="assets/images/product/6.jpeg" alt="Milk Chocolate Waffle">
                     <div>
-                        <h4>Milk Chocolate Waffle</h4>
-                        <p>₹60</p>
+                        <p class="menu-tag">Rich</p>
+                        <h3>Milk Chocolate Waffle</h3>
+                        <p class="menu-price">₹60</p>
                     </div>
-                </div>
-
-                <div class="menu-item">
+                </article>
+                <article class="menu-item">
                     <img src="assets/images/product/7.jpeg" alt="Almond Chocolate Waffle">
                     <div>
-                        <h4>Almond Chocolate Waffle</h4>
-                        <p>₹110</p>
+                        <p class="menu-tag">Premium</p>
+                        <h3>Almond Chocolate Waffle</h3>
+                        <p class="menu-price">₹110</p>
                     </div>
-                </div>
-
-                <div class="menu-item">
+                </article>
+                <article class="menu-item">
                     <img src="assets/images/product/8.jpeg" alt="Dark Chocolate Waffle">
                     <div>
-                        <h4>Dark Chocolate Waffle</h4>
-                        <p>₹120</p>
+                        <p class="menu-tag">Bold</p>
+                        <h3>Dark Chocolate Waffle</h3>
+                        <p class="menu-price">₹120</p>
                     </div>
-                </div>
-
-                <div class="menu-item">
+                </article>
+                <article class="menu-item">
                     <img src="assets/images/product/9.jpeg" alt="Dark & White Chocolate Waffle">
                     <div>
-                        <h4>Dark & White Chocolate Waffle</h4>
-                        <p>₹130</p>
+                        <p class="menu-tag">Double treat</p>
+                        <h3>Dark & White Chocolate Waffle</h3>
+                        <p class="menu-price">₹130</p>
                     </div>
-                </div>
-
-                <div class="menu-item">
-                    <img src="assets/images/product/1.jpeg" alt="Milk & White Chocolate Waffle">
-                    <div>
-                        <h4>Milk & White Chocolate Waffle</h4>
-                        <p>₹130</p>
-                    </div>
-                </div>
-
-                <div class="menu-item">
+                </article>
+                <article class="menu-item">
                     <img src="assets/images/product/2.jpeg" alt="Triple Chocolate Waffle">
                     <div>
-                        <h4>Triple Chocolate Waffle</h4>
-                        <p>₹150</p>
+                        <p class="menu-tag">Indulgent</p>
+                        <h3>Triple Chocolate Waffle</h3>
+                        <p class="menu-price">₹150</p>
                     </div>
-                </div>
-
-                <div class="menu-item">
-                    <img src="assets/images/product/3.jpeg" alt="Kitkat Waffle">
+                </article>
+                <article class="menu-item">
+                    <img src="assets/images/product/13.webp" alt="Dark Fantasy Bowl">
                     <div>
-                        <h4>Kitkat Waffle</h4>
-                        <p>₹150</p>
+                        <p class="menu-tag">Limited favorite</p>
+                        <h3>Dark Fantasy Bowl</h3>
+                        <p class="menu-price">₹99</p>
                     </div>
-                </div>
-
-                <div class="menu-item">
-                    <img src="assets/images/product/4.jpeg" alt="Naked Nutella Waffle">
-                    <div>
-                        <h4>Naked Nutella Waffle</h4>
-                        <p>₹170</p>
-                    </div>
-                </div>
-
-                <div class="menu-item">
-                    <img src="assets/images/product/5.jpeg" alt="Butterscotch Waffle">
-                    <div>
-                        <h4>Butterscotch Waffle</h4>
-                        <p>₹130</p>
-                    </div>
-                </div>
-
-                <div class="menu-item">
-                    <img src="assets/images/product/6.jpeg" alt="Oreo Cream Waffle">
-                    <div>
-                        <h4>Oreo Cream Waffle</h4>
-                        <p>₹150</p>
-                    </div>
-                </div>
-
-                <div class="menu-item">
-                    <img src="assets/images/product/7.jpeg" alt="Red Velvet Waffle">
-                    <div>
-                        <h4>Red Velvet Waffle</h4>
-                        <p>₹150</p>
-                    </div>
-                </div>
-
-                <div class="menu-item">
-                    <img src="assets/images/product/8.jpeg" alt="Biscoff Waffle">
-                    <div>
-                        <h4>Biscoff Waffle</h4>
-                        <p>₹170</p>
-                    </div>
-                </div>
-
-                <div class="menu-item">
-                    <img src="assets/images/product/9.jpeg" alt="Pistachio Kunafa Waffle">
-                    <div>
-                        <h4>Pistachio Kunafa Waffle</h4>
-                        <p>₹180</p>
-                    </div>
-                </div>
-
-                <div class="menu-item">
-                    <img src="assets/images/product/11.jpg" alt="Dark Fantasy Bowl">
-                    <div>
-                        <h4>Dark Fantasy Bowl</h4>
-                        <p>₹99</p>
-                    </div>
-                </div>
-
-                <div class="menu-item">
+                </article>
+                <article class="menu-item">
                     <img src="assets/images/product/10.jpg" alt="Classic Chocolate Bowl">
                     <div>
-                        <h4>Classic Chocolate Bowl</h4>
-                        <p>₹99</p>
+                        <p class="menu-tag">Classic</p>
+                        <h3>Classic Chocolate Bowl</h3>
+                        <p class="menu-price">₹99</p>
                     </div>
-                </div>
-
-                <div class="menu-item">
+                </article>
+                <article class="menu-item">
                     <img src="assets/images/product/12.jpg" alt="Double Chocolate Bowl">
                     <div>
-                        <h4>Double Chocolate Bowl</h4>
-                        <p>₹120</p>
+                        <p class="menu-tag">Extra rich</p>
+                        <h3>Double Chocolate Bowl</h3>
+                        <p class="menu-price">₹120</p>
                     </div>
-                </div>
-
-                <div class="menu-item">
-                    <img src="assets/images/product/13.webp" alt="Triple Chocolate Bowl">
-                    <div>
-                        <h4>Triple Chocolate Bowl</h4>
-                        <p>₹120</p>
-                    </div>
-                </div>
-
-                <div class="menu-item">
+                </article>
+                <article class="menu-item">
                     <img src="assets/images/product/11.jpg" alt="Kitkat Bowl">
                     <div>
-                        <h4>Kitkat Bowl</h4>
-                        <p>₹120</p>
+                        <p class="menu-tag">Crunchy</p>
+                        <h3>Kitkat Bowl</h3>
+                        <p class="menu-price">₹120</p>
                     </div>
-                </div>
+                </article>
+            </div>
+            <button class="menu-nav-btn menu-next-btn" type="button" aria-label="Scroll menu right">&#10095;</button>
+        </div>
+    </section>
 
-                <div class="menu-item">
-                    <img src="assets/images/product/12.jpg" alt="Oreo Chocolate Bowl">
-                    <div>
-                        <h4>Oreo Chocolate Bowl</h4>
-                        <p>₹140</p>
-                    </div>
-                </div>
-
-                <div class="menu-item">
-                    <img src="assets/images/product/10.jpg" alt="Nutella Chocolate Bowl">
-                    <div>
-                        <h4>Nutella Chocolate Bowl</h4>
-                        <p>₹140</p>
-                    </div>
-                </div>
-
-                <div class="menu-item">
-                    <img src="assets/images/product/13.webp" alt="Lotus Biscoff Bowl">
-                    <div>
-                        <h4>Lotus Biscoff Bowl</h4>
-                        <p>₹140</p>
-                    </div>
-                </div>
-                <button class="menu-nav-btn menu-next-btn">&#10095;</button>
+    <section class="section loyalty-section">
+        <div class="loyalty-panel reveal">
+            <div>
+                <p class="section-label">A little extra</p>
+                <h2>Thoughtful touches that make every visit feel premium</h2>
+                <p>
+                    Whether it’s a quick treat after work or a planned dessert stop, the overall experience is designed
+                    to feel inviting, fresh, and memorable from the first glance to the last bite.
+                </p>
+            </div>
+            <div class="loyalty-badges">
+                <div><i class="fa-solid fa-cookie-bite"></i><span>Fresh toppings</span></div>
+                <div><i class="fa-solid fa-heart"></i><span>Made with care</span></div>
+                <div><i class="fa-solid fa-wand-magic-sparkles"></i><span>Signature flavors</span></div>
+                <div><i class="fa-solid fa-badge-check"></i><span>Quality first</span></div>
             </div>
         </div>
     </section>
+
+    <section class="section testimonial-section">
+        <div class="section-heading reveal">
+            <p class="section-label">Guest love</p>
+            <h2>What customers are saying</h2>
+        </div>
+        <div class="testimonial-grid">
+            <article class="testimonial-card reveal">
+                <p>“The waffles are crisp, the chocolate is rich, and the whole place feels genuinely warm and inviting.”</p>
+                <strong>— Neha, repeat customer</strong>
+            </article>
+            <article class="testimonial-card reveal">
+                <p>“I stayed longer than planned because the menu was so tempting. Everything looks and tastes premium.”</p>
+                <strong>— Arjun, first-time visitor</strong>
+            </article>
+            <article class="testimonial-card reveal">
+                <p>“The ordering flow is convenient, and the desserts feel worth every bite. Really easy to come back to.”</p>
+                <strong>— Priya, quick treat shopper</strong>
+            </article>
+        </div>
+    </section>
+
     <section class="section contact-section" id="contact">
         <div class="contact-wrapper">
-
-            <!-- Map on the left -->
-            <div class="map-container wow slideInLeft">
+            <div class="map-container reveal">
                 <iframe
                     src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d120703.31791237797!2d73.0930578!3d19.0206609!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7e9ada5670105%3A0xb6be27c3fa87b53!2sWaffle%20burst!5e0!3m2!1sen!2sin!4v1769348618254!5m2!1sen!2sin"
-                    width="300" height="350" style="border:0;" allowfullscreen="" loading="lazy"
-                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    allowfullscreen=""
+                    loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"
+                    title="Waffle Burst location map">
+                </iframe>
             </div>
 
-            <!-- Contact info + Order button -->
-            <div class="contact-info wow slideInRight">
-                <a href="https://wa.me/+919673832443?text=Hi%20I%20want%20to%20order%20waffles!" target="_blank"
-                    class="whatsapp-btn">
-                    <i class="fa-brands fa-whatsapp"></i> Place Order on WhatsApp
-                </a>
-                <p>📍 Kamothe, Panvel, Navi Mumbai, Maharashtra</p>
-                <p>⏰ 7 PM – 11 PM</p>
-                <p>📞 +919673832443</p>
-            </div>
+            <div class="contact-info reveal">
+                <p class="section-label">Visit us</p>
+                <h2>Come by for a sweet break</h2>
+                <p>Kamothe, Panvel, Navi Mumbai, Maharashtra</p>
+                <p>Open daily from 7 PM – 11 PM</p>
+                <p>Call: +919673832443</p>
 
+                <div class="contact-actions">
+                    <a href="https://wa.me/+919673832443?text=Hi%20I%20want%20to%20order%20waffles!" target="_blank" class="whatsapp-btn">
+                        <i class="fa-brands fa-whatsapp"></i> Place order on WhatsApp
+                    </a>
+                    <a href="order.html" class="secondary-btn">View full ordering page</a>
+                </div>
+            </div>
         </div>
     </section>
+
     <div id="footer-placeholder"></div>
     <script src="js/script.js"></script>
-
 </body>
 
 </html>

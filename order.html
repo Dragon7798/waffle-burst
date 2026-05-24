@@ -5,13 +5,38 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Waffle Burst | Place Order</title>
-    <!-- <link rel="stylesheet" href="css/style.css"> -->
+    <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/order.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 </head>
 
 <body>
-    <section class="section order-section">
+    <div id="header-placeholder"></div>
+
+    <section class="order-hero">
+        <div class="order-hero-copy">
+            <p class="order-badge"><i class="fa-solid fa-cookie-bite"></i> Build your custom treat</p>
+            <h1>Customize your cravings and check out in a few taps.</h1>
+            <p>
+                Pick your favorite waffle or chocolate bowl, adjust the quantity, and send the order straight to WhatsApp.
+            </p>
+            <div class="order-hero-actions">
+                <a href="#order-menu" class="primary-btn">Jump to menu</a>
+                <a href="index.html" class="secondary-btn">Back to homepage</a>
+            </div>
+        </div>
+
+        <div class="order-hero-card">
+            <p class="order-card-label">Why it feels effortless</p>
+            <ul>
+                <li><i class="fa-solid fa-check"></i> Clear quantity controls</li>
+                <li><i class="fa-solid fa-check"></i> Live total updates</li>
+                <li><i class="fa-solid fa-check"></i> One-tap WhatsApp order</li>
+            </ul>
+        </div>
+    </section>
+
+    <section class="section order-section" id="order-menu">
         <h2>Place Your Order</h2>
         <p>Pick your favorites and visit our store to collect your order! 🍫🧇</p>
         <div class="menu-order">
@@ -302,8 +327,9 @@
         </div>
 
     </section>
-    <div class="footer" id="footer">
-    </div>
+
+    <div id="footer-placeholder"></div>
+    <script src="js/script.js"></script>
     <script src="js/order.js"></script>
 </body>
 
